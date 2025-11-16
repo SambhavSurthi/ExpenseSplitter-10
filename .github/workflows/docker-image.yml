@@ -37,4 +37,4 @@ jobs:
           context: ./Frontend/expense-splitter
           file: ./Frontend/expense-splitter/frontend.Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/endsem-preactise-docker-frontend-10:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/expense-splitter-frontend-10:latest
